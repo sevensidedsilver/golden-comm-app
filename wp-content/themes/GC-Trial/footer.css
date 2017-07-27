@@ -1,0 +1,25 @@
+footer {
+    background: #565656;
+    height: 300px;
+    color: white;
+    font-size: .67em;
+    padding-top: 27px;
+}
+
+.footerRow {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.footerCol p Strong {
+    line-height: 34px;
+}
+
+
+i.fa {
+    font-size: 1.5em;
+    padding-right: 6px;
+}

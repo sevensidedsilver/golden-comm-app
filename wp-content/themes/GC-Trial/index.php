@@ -1,12 +1,7 @@
-<?php
+
+<?php get_header(); ?>
+
+<?php get_template_part( 'content', get_post_format() ); ?>
 
 
- ?>
-<head>
-  <title>Meet The Team!</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
-  <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
-  <link href="<?php echo get_bloginfo('template_directory'); ?>/master.css" rel="stylesheet">
-</head>
-
- <h2 class="texter">TestM</h2>
+<?php get_footer(); ?>

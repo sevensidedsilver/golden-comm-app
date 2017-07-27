@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://use.fontawesome.com/983040db07.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/standardize.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/header.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/footer.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/main.css">
 
-  <link rel="stylesheet" href="./standardize.css">
-  <link rel="stylesheet" href="./header.css">
-  <title>Document</title>
+  <title><?php echo get_bloginfo( 'name' ); ?></title>
+  
+  <?php wp_head(); ?>
 </head>
 <body>
   <header>
 
     <div class="logoContain">
       <div class="logoDiv">
-        <img src="./Gold_Logo.jpg" alt="Golden Comm Header Logo">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/Gold_Logo.jpg" alt="Golden Comm Header Logo">
       </div>
     </div>
 
@@ -57,8 +63,3 @@
 
 
   </header>
-
-
-
-</body>
-</html>
