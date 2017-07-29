@@ -30,6 +30,7 @@ nav.primaryNav {
     align-items: center;
     font-size: .6em;
     font-weight: 500;
+    margin-left: 12%;
 }
 
 .customerServiceNumber {
@@ -63,6 +64,8 @@ p.customerServicePhone {
 .salesRepCTA {
     background: #f9bc14;
     height: 80px;
+    padding: 13px;
+    width: 207px;
     text-align: center;
     display: flex;
     align-items: center;

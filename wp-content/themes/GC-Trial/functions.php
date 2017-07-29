@@ -6,6 +6,9 @@ function remove_admin_login_header() {
 }
 
 
+
+
+
 add_action( 'admin_menu', 'my_plugin_menu' );
 
 
@@ -41,8 +44,35 @@ function staff_options() {
 
 	echo '</div>';
 
-
 }
+
+// insert staff into database table
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "GC-Trial";
+
+// Create connection
+// $conn = new mysqli($servername, $username, $password, $dbname);
+// // Check connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
+//
+// $sql = "INSERT INTO staff (Name, Title, Department, Description)
+// VALUES ('John', 'Intern', 'tech', 'he fetches coffee and complains about email volume')";
+//
+// if ($conn->query($sql) === TRUE) {
+//     echo "New record created successfully";
+// } else {
+//     echo "Error: " . $sql . "<br>" . $conn->error;
+// }
+//
+// $conn->close();
+
+
+
+
 
 
 // end of starting php tag

@@ -1,0 +1,53 @@
+.mainContent {
+    text-align: center;
+}
+
+.mainContent h1 {
+    margin: 1.9em 0 0;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.peopleArea {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 53px;
+    max-width: 861px;
+}
+
+.mainContent h3 {
+    font-size: .8em;
+    color: grey;
+    line-height: 3em;
+}
+
+
+.person {
+    width: 200px;
+    height: 250px;
+}
+
+.personPic {
+    width: 144px;
+    margin: 0 auto;
+}
+
+.personPic img {
+    height: 142px;
+    background: #cacaca;
+    padding-top: 22px;
+    border-radius: 100%;
+}
+
+
+p.nameText {
+    margin-top: 8px;
+    font-size: .9em;
+    font-weight: 100;
+}
+
+p.titleText {
+    font-size: .65em;
+    color: grey;
+}

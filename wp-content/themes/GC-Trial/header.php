@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/standardize.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/header.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/footer.css">
-  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/main.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/staff.css">
 
   <title><?php echo get_bloginfo( 'name' ); ?></title>
-  
+
   <?php wp_head(); ?>
 </head>
 <body>
